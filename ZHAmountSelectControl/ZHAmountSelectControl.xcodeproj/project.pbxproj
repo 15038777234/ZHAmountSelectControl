@@ -14,6 +14,7 @@
 		5D7A045C1C744728007499AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7A045B1C744728007499AF /* Assets.xcassets */; };
 		5D7A045F1C744728007499AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7A045D1C744728007499AF /* LaunchScreen.storyboard */; };
 		5D7A04691C744777007499AF /* ZHAmountSelectControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7A04681C744777007499AF /* ZHAmountSelectControl.m */; };
+		5D7A046D1C7478B5007499AF /* ZHPasswordTextFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7A046C1C7478B5007499AF /* ZHPasswordTextFiled.m */; };
 		8776451258BD4D99E7742C64 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04981934F19B9711DF019341 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,8 @@
 		5D7A04601C744728007499AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D7A04671C744777007499AF /* ZHAmountSelectControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHAmountSelectControl.h; sourceTree = "<group>"; };
 		5D7A04681C744777007499AF /* ZHAmountSelectControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHAmountSelectControl.m; sourceTree = "<group>"; };
+		5D7A046B1C7478B5007499AF /* ZHPasswordTextFiled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHPasswordTextFiled.h; sourceTree = "<group>"; };
+		5D7A046C1C7478B5007499AF /* ZHPasswordTextFiled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHPasswordTextFiled.m; sourceTree = "<group>"; };
 		E55C5D67DE7C8E40DEBE1D40 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,6 +53,7 @@
 		5D7A04431C744728007499AF = {
 			isa = PBXGroup;
 			children = (
+				5D7A046A1C74789B007499AF /* ZHPasswordTextFiled */,
 				5D7A04661C744764007499AF /* ZHAmountSelectControl */,
 				5D7A044E1C744728007499AF /* ZHAmountSelectControl */,
 				5D7A044D1C744728007499AF /* Products */,
@@ -98,6 +102,16 @@
 			);
 			name = ZHAmountSelectControl;
 			path = ZHAmountSelectControl/ZHAmountSelectControl;
+			sourceTree = "<group>";
+		};
+		5D7A046A1C74789B007499AF /* ZHPasswordTextFiled */ = {
+			isa = PBXGroup;
+			children = (
+				5D7A046B1C7478B5007499AF /* ZHPasswordTextFiled.h */,
+				5D7A046C1C7478B5007499AF /* ZHPasswordTextFiled.m */,
+			);
+			name = ZHPasswordTextFiled;
+			path = ZHAmountSelectControl/ZHPasswordTextFiled;
 			sourceTree = "<group>";
 		};
 		63AAA1DE372C56586E397A3D /* Frameworks */ = {
@@ -240,6 +254,7 @@
 			files = (
 				5D7A04571C744728007499AF /* ViewController.m in Sources */,
 				5D7A04691C744777007499AF /* ZHAmountSelectControl.m in Sources */,
+				5D7A046D1C7478B5007499AF /* ZHPasswordTextFiled.m in Sources */,
 				5D7A04541C744728007499AF /* AppDelegate.m in Sources */,
 				5D7A04511C744728007499AF /* main.m in Sources */,
 			);
