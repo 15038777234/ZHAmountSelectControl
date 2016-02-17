@@ -168,8 +168,9 @@
             max=max+_splitButtonSpanceWidth+_splitButtonSize.width;
         }
         if (point.x>=min && point.x<=max) {
-            return _splitButtons[i].center;
             _currentAmountIconIndex=i;
+            return _splitButtons[i].center;
+            
         }
         continue;
     }
