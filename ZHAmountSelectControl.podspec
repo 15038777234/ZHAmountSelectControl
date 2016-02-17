@@ -132,7 +132,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-   s.dependency 'Masonry', '~> 0.6.4'
+  s.dependency 'Masonry', '~> 0.6.4'
    #pod trunk register 15038777234@163.com 'zhang hang' --description='macbook air'
 
 end
